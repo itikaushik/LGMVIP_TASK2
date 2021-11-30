@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+   background: white;
+}
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background: rgb(20, 20, 87);
+  align-items: center;
+}
+h1{
+  color: whitesmoke;
+}
+button{
+  margin:20px auto;
+  color: black;
+  background-color: yellow;
+  padding: 10px;
+  font-size: 18px;
+  border:1px solid #333;
+  cursor: pointer;
+}
+button:hover{
+  background: purple;
+  color: white;
+}
+img{
+  width: 150px;
+  margin: 4%;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid gray;
+  cursor: pointer;
+}
+img:hover{
+  border: 7px solid black;
+}
+.app_user{
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.users{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 10px;
+  margin: 2%;
+}
